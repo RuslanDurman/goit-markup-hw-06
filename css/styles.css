@@ -526,7 +526,8 @@ button {
     margin-left: 93px;
 }
 
-.subscribe-ft p {
+.subscribe-ft label {
+    display: block;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
