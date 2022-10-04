@@ -364,13 +364,70 @@
                             <use href="./images/icons.svg#icon-linkedin" </svg>
                         </a>
                     </li>
-                    
                 </ul>
+            </div>
+            <div class="subscribe-ft">
+                <p>Підпишіться на розсилку</p>
+                <form>
+                    <input type="email" name="email-sub" id="email-sub" placeholder="E-mail" />
+                    <div class="button-sub">
+                    <button type="submit" class="form-sub">Підписатися</button>
+                    <svg width="24px" height="24px">
+                        <use href="./images/icons.svg#icon-send-form" </svg>
+                    </div>
+                </form>
             </div>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+            <p class="order-title">
+                Залиште свої дані, ми вам передзвонимо
+            </p>
+            <form class="order-form" autocomplete="off">
+                <div class="form-field">
+                <label for="first-name">Ім'я</label>
+                <div class="form-enter">
+                <input type="text" name="first-name" id="first-name" />
+                <svg width="18px" height="18px">
+                    <use href="./images/icons.svg#icon-name-form"></use> </svg>
+                </div>
+                </div>
+                <div class="form-field">
+                <label for="form-tel">Телефон</label>
+                <div class="form-enter">
+                <input type="tel" name="form-tel" id="form-tel" autocomplete="on"/>
+                <svg width="18px" height="18px">
+                    <use href="./images/icons.svg#icon-phone-form"></use> </svg>
+                </div>
+                </div>
+                <div class="form-field">
+                <label for="form-mail">Пошта</label>
+                <div class="form-enter">
+                <input type="email" name="form-mail" id="form-mail" autocomplete="on"/>
+                <svg width="18px" height="18px">
+                    <use href="./images/icons.svg#icon-email-form"></use> </svg>
+                </div>
+                </div>
+                <div class="form-field">
+                <label for="form-comment">Коментар</label>
+                <textarea name="form-comment" placeholder="Введіть текст" id="form-comment" ></textarea>
+                </div>
+                <div class="form-agree">
+                <input type="checkbox" name="form-agree" id="form-agree" required />
+                <label for="form-agree">Погоджуюся з розсилкою та приймаю 
+                    <a href="" class="form-agree-link">Умови договору</a>
+                <svg width="16px" height="15px" class="check-none">
+                    <use href="./images/icons.svg#icon-check1-form"></use>
+                </svg>
+                <svg width="16px" height="15px" class="check-ok">
+                    <use href="./images/icons.svg#icon-check-form"></use>
+                </svg>
+                </label>
+                </div>
+                <button type="submit" class="form-button">Відправити</button>
+
+            </form>
             <button type="button" class="modal-close" data-modal-close>
                 <svg class="icon-close" width="30px" height="30px">
                     <use href="./images/icons.svg#icon-close"
